@@ -1,0 +1,14 @@
+index:
+   path: /
+   controller: App\Controller\AccueilController::index
+
+portfolio:
+   path: /portfolio
+   controller: App\Controller\PortfolioController::index
+   
+projet1:
+   path: /projet1
+   controller: App\Controller\PortfolioController::details
+   
+
+ 

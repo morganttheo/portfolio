@@ -1,0 +1,16 @@
+{% extends "basefront.html.twig" %}
+{% block body %}
+    <h1> Portfolio du BTS </h1>
+    <h3>Mes projets</h3>
+    <div>
+        <div class="container">
+            <img class ="page-mediatek" src="{{ asset('images/AP1.v2.png') }}" alt="Image atelier de professionalisation" />
+            <div>
+                <h6>
+                    <a class="imgText" href="{{ path('projet1') }}"> Atelier de professionalisation n°1 </a>
+                </h6>
+            </div>
+                 
+        </div>
+    </div>
+{% endblock %}

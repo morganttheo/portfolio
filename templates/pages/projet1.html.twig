@@ -1,0 +1,82 @@
+{% extends "basefront.html.twig" %}
+{% block body %}
+    
+    <h1 class="ap1-titre"> Mediatek Formation </h1>
+    <div class="div-categorie">
+        <h6 class="h6-categorie"> Catégorie </h6>
+        <span> Application web </span>
+    </div>
+    <div class="div-matiere">
+        <h6 class="h6-categorie"> Matière </h6>
+        <span> SLAM - Atelier de professionnalisation </span>
+    </div>
+    <div>
+        <img class="img-banniere" src="{{ asset('images/bannière-ap1.png') }}" alt="Image atelier de professionalisation" />
+    </div>
+    <br>
+    <div class="context">
+        <br>
+        <h3> Contexte, existant et demande </h3>  
+        <br>
+        <a>MediaTek86 est un réseau qui gère les médiathèques de la Vienne, et qui a pour rôle de fédérer les prêts de livres, DVD et CD et de développer la médiathèque numérique pour l’ensemble des médiathèques du département.
+           La partie front-office a été confiée à un autre développeur (Accueil, Formations, Playlists).
+           Nous devons créer la partie back-office permettant d'ajouter, modifier ou supprimer des formations, playlists ou catégorie et s'assurer que l'accès à cette administration ne soit accessible qu'après authentification.
+        </a>
+        <br>
+        <br>
+        <h3> Fichiers à télécharger ou consulter </h3>
+        <br>
+        <div class="gauche">
+            <ul>
+                <li>
+                    <a class="fich" href="{{ asset('fichiers/Context_Detaille.pdf') }}" download="Contexte_Detaille.pdf"> Context </a>
+                </li>
+            
+                <li>
+                    <a class="fich" href="{{ asset('fichiers/les_missions.pdf') }}" download="les_missions.pdf"> Les missions </a>
+                </li>
+            
+                <li>
+                    <a class="fich" href="{{ asset('fichiers/cahier_des_charges.pdf') }}" download="cahier_des_charges.pdf"> Cahier des charges </a>
+                </li>
+            
+                <li>
+                   <a class="fich" href="{{ asset('fichiers/Contrat_De_Developpement.pdf') }}" download="Contrat "> Contrat de développement</a>
+                </li>
+                <li>
+                    <a class="fich2" href="https://morgantmediatek.go.yj.fr/mediatekformation/documentation/"> Documentation technique </a>
+                </li>
+            </ul>
+                
+        </div>
+        <div class="droite">
+            <ul>
+                <li>
+                    <a class="fich2" href="https://github.com/morganttheo/mediatekformation.git"> Dépôt GitHub</a>
+                </li>              
+                <li>
+                    <a class="fich2" href="{{ asset('fichiers/pv_recette.pdf') }}" download="pv_recette.pdf">PV de recette </a>
+                </li>
+                <li>
+                    <a class="fich2" href="{{ asset('fichiers/compte_rendu.pdf') }}" download="compte_rendu.pdf"> Compte rendu</a>
+                </li>
+                <li>
+                    <a class="fich2" href="https://morgantmediatek.go.yj.fr/mediatekformation/public/"> Site en ligne </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+    <br>
+    <div class="doc">
+        <h3> Documentation utilisateur </h3>
+        <video controls preload="metadata" width="600" height="300">
+            <source src="{{ asset('fichiers/tuto_mediatek.mp4') }}" type="video/mp4" >
+            <track label="English" kind="captions" srclang="en" src="resources/myvideo-en.vtt" default>
+        </video>
+    </div>
+        
+
+
+{% endblock %}
+
