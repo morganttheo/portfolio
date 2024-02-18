@@ -11,7 +11,7 @@ jobs:
     - name: Sync files
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
-        server: ftp://theomorgant.fr
+        server: ftp://178.16.128.47
         server-dir: /public_html/
         username: u689980337
         password: ouhaorzfj
