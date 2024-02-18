@@ -4,6 +4,7 @@
     font-family: Avenir, sans-serif;
     
 }
+
 body{
     background-color: #222224;
 }
@@ -97,6 +98,9 @@ h5{
     padding-bottom: 30px;
 }
 
+.box1{
+    position: relative;
+}
 .div-categorie{
     position: absolute;
 }
@@ -129,15 +133,15 @@ h5{
     right:45%;
     
 }
-
-li{
-    margin-bottom: 15px;
-}
 .droite{
     position: absolute;
     text-align: left;
     right: 0%;
     left: 60%;
+}
+
+li{
+    margin-bottom: 15px;
 }
 
 
@@ -153,6 +157,15 @@ li{
     left: 0%;
 }
 
+.divCompetence{
+    position: relative;
+    text-align: left;
+    left: 40%;
+}
+.re{
+    position: relative;
+}
+
 .doc{
     padding-top: 30px;
     padding-bottom:10px;
@@ -161,15 +174,19 @@ h3{
     font-size: 30px;
 }
 footer{
+    position: relative;
+    
     text-align: center;
-    padding-top: 40px;
+    
+}
+h4{
+    text-decoration:underline;
 }
 
-.mentions{
-    padding-top: 15px;
+
+.footer-a{
+    text-decoration: none;
+    color: white;
 }
 
-.footer{
-    position: absolute;
-    bottom: 0%;
-}
+
