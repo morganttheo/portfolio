@@ -12,6 +12,6 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.0
       with:
         server: ftp.theomorgant.fr
-        server-dir: /
+        server-dir: /public_html/portfolio/
         username: u689980337.theomorgant
         password: ouhaorzfj1A
