@@ -13,5 +13,5 @@ jobs:
       with:
         server: ftp.theomorgant.fr
         server-dir: /public_html/
-        username: u689980337.theomorgant
+        username: u689980337
         password: ouhaorzfj
