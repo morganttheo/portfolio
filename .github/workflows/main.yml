@@ -9,9 +9,9 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Sync files
-    uses: SamKirkland/FTP-Deploy-Action@4.3.0
-    with:
-      server: ftp://theomorgant.fr
-      server-dir: /public_html/
-      username: u689980337
-      password: ouhaorzfj
+      uses: SamKirkland/FTP-Deploy-Action@4.3.0
+      with:
+        server: ftp://theomorgant.fr
+        server-dir: /public_html/
+        username: u689980337
+        password: ouhaorzfj
