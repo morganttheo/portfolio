@@ -1,0 +1,193 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Avenir, sans-serif;
+    
+}
+
+body{
+    background-color: #222224;
+}
+nav ul{
+    
+    list-style-type: none;
+    background-color: #222224;
+ 
+}
+nav li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    
+}
+
+nav ul::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+nav{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    border-bottom: 1px solid white;
+}
+
+nav a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    border-bottom: 2px solid transparent;
+    padding: 20px 0px;
+       
+}
+
+nav a:hover{
+    color: orange;
+    border-bottom: 2px solid gold;
+}
+
+h1{
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+h5{
+    padding-top: 50px;
+    color: white;
+    text-align: center;
+    color: red;
+}
+
+.page-mediatek{
+    width: 40%;
+    height: 40%;
+    align: center;
+    padding-top: 40px;
+    
+}
+.page-mediatek:hover {
+  opacity: 0.5;
+}
+
+
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.imgText{
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    background-color: transparent ;
+    text-decoration: none;
+}
+
+.ap1-titre{
+    padding-top: 50px;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.box1{
+    position: relative;
+}
+.div-categorie{
+    position: absolute;
+}
+.h6-categorie{
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.div-matiere{
+    position: absolute;
+    right: 0px;
+}
+
+.img-banniere{
+    width: 100%;
+    height: 100%;
+    padding-top: 60px;
+    
+}
+
+.context{
+    padding-left: 25%;
+    padding-right: 25%;
+    padding-bottom: 150px;
+}
+
+.gauche{
+    position: absolute;
+    text-align: left;
+    left: 40%;
+    right:45%;
+    
+}
+.droite{
+    position: absolute;
+    text-align: left;
+    right: 0%;
+    left: 60%;
+}
+
+li{
+    margin-bottom: 15px;
+}
+
+
+.fich{
+    color: white;
+    position: absolute;
+    left: 0%;
+    
+}
+.fich2{
+    color: white;
+    position: absolute;
+    left: 0%;
+}
+
+.divCompetence{
+    position: relative;
+    text-align: left;
+    left: 40%;
+}
+.re{
+    position: relative;
+}
+
+.doc{
+    padding-top: 30px;
+    padding-bottom:10px;
+}
+h3{
+    font-size: 30px;
+}
+footer{
+    position: relative;
+    
+    text-align: center;
+    
+}
+h4{
+    text-decoration:underline;
+}
+
+
+.footer-a{
+    text-decoration: none;
+    color: white;
+}
+
+
