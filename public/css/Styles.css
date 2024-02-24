@@ -12,11 +12,15 @@ nav ul{
     
     list-style-type: none;
     background-color: #222224;
+    padding-bottom: 0px;
+    
+    
  
 }
 nav li{
     float: left;
     width: 25%;
+
     text-align: center;
     
 }
@@ -27,15 +31,19 @@ nav ul::after{
     clear: both;
 }
 nav{
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
     background-color: white;
     position: sticky;
     top: 0px;
     border-bottom: 1px solid white;
+    z-index: 1000; /* assure que le menu reste au-dessus du contenu */
+
+    
 }
 
 nav a{
+    
     display: block;
     text-decoration: none;
     color: white;
@@ -60,7 +68,7 @@ h5{
     padding-top: 50px;
     color: white;
     text-align: center;
-    color: red;
+    color: white;
 }
 
 .page-mediatek{
@@ -176,7 +184,7 @@ h3{
 }
 footer{
     position: relative;
-    
+    margin-top: 100px;
     text-align: center;
     
 }
