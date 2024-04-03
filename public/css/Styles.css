@@ -3,10 +3,12 @@
     padding: 0px;
     font-family: Avenir, sans-serif;
     
+    
 }
 
 body{
     background-color: #222224;
+    
 }
 nav ul{
     
@@ -68,7 +70,7 @@ h5{
     padding-top: 50px;
     color: white;
     text-align: center;
-    color: white;
+
 }
 
 .page-mediatek{
@@ -76,17 +78,18 @@ h5{
     height: 40%;
     align: center;
     padding-top: 40px;
+    opacity: 0.5;
     
 }
 .page-mediatek:hover {
-  opacity: 0.5;
+  opacity: 1;
 }
 
 
 .container {
   position: relative;
   text-align: center;
-  color: white;
+  color: #cacaca;
 }
 
 .imgText{
@@ -96,7 +99,7 @@ h5{
     transform: translate(-50%, -50%);
     text-align: center;
     font-size: 30px;
-    color: white;
+    color: #cacaca;
     background-color: transparent ;
     text-decoration: none;
 }
@@ -148,6 +151,13 @@ h5{
     right: 0%;
     left: 60%;
 }
+.centre{
+    position: relative;
+    text-align: center;
+    left: 50%;
+    right:50%;
+}
+
 
 li{
     margin-bottom: 15px;
@@ -155,13 +165,13 @@ li{
 
 
 .fich{
-    color: white;
+    color: #cacaca;
     position: absolute;
     left: 0%;
     
 }
 .fich2{
-    color: white;
+    color: #cacaca;
     position: absolute;
     left: 0%;
 }
@@ -192,10 +202,19 @@ h4{
     text-decoration:underline;
 }
 
+.cv{
+    color: #cacaca;
 
+}
 .footer-a{
     text-decoration: none;
-    color: white;
+    color: #cacaca;
 }
 
 
+.fa-linkedin {
+    background: #3B5998;
+    color: white;
+    position: relative;
+    right: 100%;
+}
