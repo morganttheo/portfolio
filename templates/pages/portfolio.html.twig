@@ -4,13 +4,39 @@
     <h3>Mes projets</h3>
     <div>
         <div class="container">
-            <img class ="page-mediatek" src="{{ asset('images/AP1.v2.png') }}" alt="Image atelier de professionalisation" />
+            <img class ="page-mediatek" src="{{ asset('images/AP1.png') }}" alt="Image atelier de professionalisation" />
             <div>
                 <h6>
                     <a class="imgText" href="{{ path('projet1') }}"> Atelier de professionalisation n°1 </a>
                 </h6>
             </div>
                  
+        </div>
+        </br>
+        </br>
+        <div class="container">
+            <img class ="page-mediatek" src="{{ asset('images/Stage2.png') }}" alt="Image interface application windows" />
+            <div>
+                <h6>
+                    <a class="imgText" href="{{ path('stage2') }}"> Stage de deuxième année </a>
+                </h6>
+            </div>
+                 
+        </div>
+        <div class="container">
+            <img class ="page-mediatek" src="{{ asset('images/Stage1.png') }}" alt="Image interface application windows" />
+            <div>
+                <h6>
+                    <a class="imgText" href="{{ path('stage1') }}"> Stage de première année </a>
+                </h6>
+            </div>
+        </div>   
+        <div>
+            <a> Vidéo de présentation</a>
+            <video controls preload="metadata" width="600" height="300">
+                <source src="{{ asset('fichiers/Vidéo.WEBM') }}" type="video/WEBM" >
+                <track label="English" kind="captions" srclang="en" src="resources/myvideo-en.vtt" default>
+            </video>
         </div>
     </div>
 {% endblock %}

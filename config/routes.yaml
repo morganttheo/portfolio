@@ -8,7 +8,19 @@ portfolio:
    
 projet1:
    path: /projet1
-   controller: App\Controller\PortfolioController::details
+   controller: App\Controller\PortfolioController::afficheProjet1
+   
+   
+stage2:
+   path: /stage2
+   controller: App\Controller\PortfolioController::afficheStage2   
+
+stage1:
+   path: /stage1
+   controller: App\Controller\PortfolioController::afficheStage1  
    
 
- 
+veille:
+   path: /veille
+   controller: App\Controller\VeilleController::index
+   
