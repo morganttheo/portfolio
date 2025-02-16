@@ -2,80 +2,54 @@
 {% block body %}
     
     <h1 class="ap1-titre"> Mediatek Formation </h1>
-    <div class="box1">
-        <div class="div-categorie">
-            <h6 class="h6-categorie"> Catégorie </h6>
-            <span> Application web </span>
-        </div>
-        <div class="div-matiere">
-            <h6 class="h6-categorie"> Cadre de réalisation </h6>
-            <span> SLAM - Atelier de professionnalisation </span>
-        </div>
-        <div>
-            <img class="img-banniere" src="{{ asset('images/bannière-ap1.png') }}" alt="Image atelier de professionalisation" />
-        </div>
-        <br>
-        <div class="context">
-            <br>
-            <h3> Contexte, existant et demande </h3>  
-            <br>
-            <a>MediaTek86 est un réseau qui gère les médiathèques de la Vienne, et qui a pour rôle de fédérer les prêts de livres, DVD et CD et de développer la médiathèque numérique pour l’ensemble des médiathèques du département.
-               La partie front-office a été confiée à un autre développeur (Accueil, Formations, Playlists).
-               Nous devons créer la partie back-office permettant d'ajouter, modifier ou supprimer des formations, playlists ou catégorie et s'assurer que l'accès à cette administration ne soit accessible qu'après authentification.
-            </a>
-            <br>
-            <br>
+        <div class="box1">
+            <div class="div-categorie">
+                <h6 class="h6-categorie"> Catégorie </h6>
+                <span> Application web </span>
+            </div>
+            <div class="div-matiere">
+                <h6 class="h6-categorie"> Cadre de réalisation </h6>
+                <span> SLAM - Atelier de professionnalisation </span>
+            </div>
+            <div class="img-container">
+                <img class="img-banniere" src="{{ asset('images/bannière-ap1.png') }}" alt="Image atelier de professionalisation" />
+            </div>
+            </br>
+            <div class="context">
+                <h3> Contexte, existant et demande </h3>  
+                <p>
+                    MediaTek86 est un réseau qui gère les médiathèques de la Vienne, et qui a pour rôle de fédérer les prêts de livres, DVD et CD 
+                    et de développer la médiathèque numérique pour l’ensemble des médiathèques du département. 
+                    La partie front-office a été confiée à un autre développeur (Accueil, Formations, Playlists).
+                    Nous devons créer la partie back-office permettant d'ajouter, modifier ou supprimer des formations, playlists ou catégories 
+                    et s'assurer que l'accès à cette administration ne soit accessible qu'après authentification.
+                </p>
+            </div>
+
             <h3> Fichiers à télécharger ou consulter </h3>
-            <br>
-            <div class="gauche">
+
+            <div class="centre">
                 <ul>
-                    <li>
-                        <a class="fich" href="{{ asset('fichiers/Projet1/Context_Detaille.pdf') }}" download="Contexte_Detaille.pdf"> Context </a>
-                    </li>
-
-                    <li>
-                        <a class="fich" href="{{ asset('fichiers/Projet1/les_missions.pdf') }}" download="les_missions.pdf"> Les missions </a>
-                    </li>
-
-                    <li>
-                        <a class="fich" href="{{ asset('fichiers/Projet1/cahier_des_charges.pdf') }}" download="cahier_des_charges.pdf"> Cahier des charges </a>
-                    </li>
-
-                    <li>
-                       <a class="fich" href="{{ asset('fichiers/Projet1/Contrat_De_Developpement.pdf') }}" download="Contrat "> Contrat de développement</a>
-                    </li>
-                    <li>
-                        <a class="fich2" href="https://morgantmediatek.go.yj.fr/mediatekformation/documentation/"> Documentation technique </a>
-                    </li>
-                </ul>
-
-            </div>
-            <div class="droite">
-                <ul>
-                    <li>
-                        <a class="fich2" href="https://github.com/morganttheo/mediatekformation.git"> Dépôt GitHub</a>
-                    </li>              
-                    <li>
-                        <a class="fich2" href="{{ asset('fichiers/Projet1/pv_recette.pdf') }}" download="pv_recette.pdf">PV de recette </a>
-                    </li>
-                    <li>
-                        <a class="fich2" href="{{ asset('fichiers/Projet1/compte_rendu.pdf') }}" download="compte_rendu.pdf"> Compte rendu</a>
-                    </li>
-                    <li>
-                        <a class="fich2" href="https://morgantmediatek.go.yj.fr/mediatekformation/public/"> Site en ligne </a>
-                    </li>
-
+                    <li><a class="fich" href="{{ asset('fichiers/Projet1/Context_Detaille.pdf') }}" download="Contexte_Detaille.pdf"> Context </a></li>
+                    <li><a class="fich" href="{{ asset('fichiers/Projet1/les_missions.pdf') }}" download="les_missions.pdf"> Les missions </a></li>
+                    <li><a class="fich" href="{{ asset('fichiers/Projet1/cahier_des_charges.pdf') }}" download="cahier_des_charges.pdf"> Cahier des charges </a></li>
+                    <li><a class="fich" href="{{ asset('fichiers/Projet1/Contrat_De_Developpement.pdf') }}" download="Contrat"> Contrat de développement</a></li>
+                    <li><a class="fich2" href="https://github.com/morganttheo/mediatekformation.git"> Dépôt GitHub</a></li>
+                    <li><a class="fich2" href="{{ asset('fichiers/Projet1/pv_recette.pdf') }}" download="pv_recette.pdf"> PV de recette </a></li>
+                    <li><a class="fich2" href="{{ asset('fichiers/Projet1/compte_rendu.pdf') }}" download="compte_rendu.pdf"> Compte rendu</a></li>
                 </ul>
             </div>
-        </div>
-        <br>
-        <div class="doc">
-            <h3> Documentation utilisateur </h3>
-            <br>
-            <video controls preload="metadata" width="600" height="300">
-                <source src="{{ asset('fichiers/Projet1/TutoMediatek.mp4') }}" type="video/mp4" >
-                <track label="English" kind="captions" srclang="en" src="resources/myvideo-en.vtt" default>
-            </video>
+
+            <p class="note">Le site n'est plus accessible en ligne car non utilisé.</p>
+
+            <div class="doc">
+                <h3> Documentation utilisateur </h3>
+                </br>
+                <video controls preload="metadata" width="600" height="300">
+                    <source src="{{ asset('fichiers/Projet1/TutoMediatek.mp4') }}" type="video/mp4">
+                    <track label="English" kind="captions" srclang="en" src="resources/myvideo-en.vtt" default>
+                </video>
+            </div>
         </div>
         <div class="re">
             <div class="divCompetence">
@@ -105,7 +79,7 @@
                         <a>Vérifier le respect des règles d'utilisation des ressources numériques</a>
                     </li>
                 </ul>
-
+                </br>
                 <h4>Répondre aux incidents et aux demandes d'assistance et d'évolution </h4>
                 <br>
 
@@ -120,6 +94,7 @@
                         <a>Traiter des demandes concernant les applications</a>
                     </li>
                 </ul>
+                </br>
                 <h4>Développer la présence en ligne de l'organisation</h4>
                 <br>
 
@@ -135,7 +110,7 @@
                         <a>Participer à l'évolution d'un site web exploitant les données de l'organisation</a>
                     </li>
                 </ul>
-
+                </br>
                 <h4> Travailler en mode projet</h4>
                 <br>
                 <ul>
@@ -149,7 +124,7 @@
                         <a>Evaluer les indicateurs de suivi d'un projet et analyser les écarts</a>
                     </li>
                 </ul>
-
+                </br>
                 <h4>Mettre à disposition des utilisateurs un service informatique</h4>
                 <br>
                 <ul>
@@ -163,7 +138,7 @@
                         <a>Accompagner les utilisateurs dans la mise en place d'un service</a>
                     </li>
                 </ul>
-
+                </br>
                 <h4>Concevoir et développer une solution applicative</h4>
                 <br>
                 <ul>
@@ -201,6 +176,7 @@
                         <a>Exploiter les fonctionnalités d'un environnement de développement et de tests</a>
                     </li>
                 </ul>
+                </br>
                 <h4>Assurer la maintenance corrective ou évolutive d'une solution applicative</h4>
                 <br>
                 <ul>
@@ -214,7 +190,7 @@
                         <a>Analyser et corriger un dysfonctionnement</a>
                     </li>
                 </ul>
-
+                </br>
                 <h4>Gérer les données</h4>
                 <br>   
                 <ul>
@@ -228,7 +204,7 @@
             </div>
         </div>
         <div class="re">
-            <div class="divCompetence">
+            <div class="centre">
                 <br>
                 <h3> Technologies utilisées</h3>
                 <br>

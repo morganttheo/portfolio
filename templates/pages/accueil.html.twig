@@ -7,9 +7,42 @@
         Etudiant en 2 ème année de BTS SIO,
     </p>
     <p>
-       je vous présente mon portfolio, vous pourrez ainsi découvrir mes réalisations professionnelles et mon parcours.
+    je vous présente mon portfolio, vous pourrez ainsi découvrir mes réalisations professionnelles et mon parcours.
     </p>
-    
+    </br>
+<div class="projectsPage">
+    <svg class="iconTitle" stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 24 24" height="2em" width="2em" xmlns="http://www.w3.org/2000/svg">
+        <path fill="none" stroke-width="2" d="M9,15 L9,23 L1,23 L1,15 L9,15 Z M23,15 L23,23 L15,23 L15,15 L23,15 Z M9,1 L9,9 L1,9 L1,1 L9,1 Z M23,1 L23,9 L15,9 L15,1 L23,1 Z"></path>
+    </svg>
+    <h1 class="projetsTitle">Projets</h1>
+</div>
+
+<div class="projectsContainer">
+    <div class="projectsCards">
+        <div class="projectsCard">
+            <div class="projectsPicture">
+                <img src="{{ asset('images/Mediatek2 - Copie2.png') }}" alt="Projet 1">
+            </div>
+            <div class="projectsContent">
+                <h2>MediaTek86</h2>
+                <p>Atelier de professionalisation 1 de BTS SIO, MediaTek86 est un site web permettant l'acces à des formations.</p>
+                <a class="projectBtn" href="{{ path('projet1') }}">Voir plus</a>
+            </div>
+        </div>
+        <div class="projectsCard">
+            <div class="projectsPicture">
+                <img src="{{ asset('images/AP3.png') }}" alt="Projet 1">
+            </div>
+            <div class="projectsContent">
+                <h2>MediaTek Documents</h2>
+                <p>Atelier de professionalisation 2 de BTS SIO, MediaTek Documents est un site web permettant l'acces à des formations en ligne.</p>
+                <a  class="projectBtn" href="{{ path('projet1') }}">Voir plus</a>
+            </div>
+        </div>
+    </div>  
+</div>
+
+
 
 {%endblock %}
 
