@@ -1,7 +1,8 @@
 {% extends "basefront.html.twig" %}
 {% block body %}
-    <h1> Portfolio du BTS SIO </h1>
-    <h3>Mes projets</h3>
+    </br>
+    <h1 class="projets">Projets</h1>
+    </br>
     <div>
         <div class="container">
             <img class ="page-mediatek" src="{{ asset('images/AP1.png') }}" alt="Image atelier de professionalisation" />
@@ -10,7 +11,6 @@
                     <a class="imgText" href="{{ path('projet1') }}"> Atelier de professionalisation n°1 </a>
                 </h6>
             </div>
-                 
         </div>
         </br>
         </br>
@@ -21,7 +21,6 @@
                     <a class="imgText" href="{{ path('stage2') }}"> Stage de deuxième année </a>
                 </h6>
             </div>
-                 
         </div>
         <div class="container">
             <img class ="page-mediatek" src="{{ asset('images/Stage1.png') }}" alt="Image interface application windows" />
@@ -39,4 +38,6 @@
             </video>
         </div>
     </div>
+
+    <h3> BUT Informatique </h3>
 {% endblock %}
