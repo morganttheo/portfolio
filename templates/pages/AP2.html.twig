@@ -1,0 +1,251 @@
+{% extends "basefront.html.twig" %}
+{% block body %}
+    
+    <h1 class="ap1-titre"> Mediatek documents </h1>
+    <div class="box1">
+        <div class="div-categorie">
+            <h6 class="h6-categorie"> Catégorie </h6>
+            <span> Application web </span>
+        </div>
+        <div class="div-matiere">
+            <h6 class="h6-categorie"> Cadre de réalisation </h6>
+            <span> SLAM - Atelier de professionnalisation </span>
+        </div>
+        <div>
+            <img class="img-banniere" src="{{ asset('images/bannière-ap2.png') }}" alt="Image atelier de professionalisation" />
+        </div>
+        <br>
+        <div class="context">
+            <br>
+            <h3> Contexte, existant et demande </h3>  
+            <br>
+            <a>MediaTek86 est un réseau qui gère les médiathèques de la Vienne, et qui a pour rôle de fédérer les prêts de livres, DVD et CD et de développer la médiathèque numérique pour l’ensemble des médiathèques du département.
+                Cette application permet de gérer les documents (livres, DVD, revues).
+               Nous devons créer la partie permettant de gérer les commandes de livres ou de DVD.
+            </a>
+        </div>
+        <h3> Fichiers à télécharger ou consulter </h3>
+        <br>
+        <div class="centre">
+            <ul>
+                <li>
+                    <a class="fich" href="{{ asset('fichiers/AP2/Context_Detaille.pdf') }}" download="Contexte_Detaille.pdf"> Contexte </a>
+                </li>
+                <li>
+                    <a class="fich" href="{{ asset('fichiers/AP2/les_missions.pdf') }}" download="les_missions.pdf"> Les missions </a>
+                </li>
+                <li>
+                    <a class="fich" href="{{ asset('fichiers/AP2/cahier_des_charges.pdf') }}" download="cahier_des_charges.pdf"> Cahier des charges </a>
+                </li>
+                <li>
+                    <a class="fich" href="{{ asset('fichiers/AP2/Contrat_De_Developpement.pdf') }}" download="Contrat "> Contrat de développement</a>
+                </li>
+                <li>
+                    <a class="fich2" href="https://github.com/morganttheo/API_Mediatek"> Dépôt GitHub de l'API   </a>
+                </li>  
+                <li>
+                    <a class="fich2" href="https://github.com/morganttheo/Application_Mediatek"> Dépôt GitHub de l'application   </a>
+                </li> 
+                <li>
+                    <a class="fich2" href="{{ asset('fichiers/AP2/Compte-rendu-AP2.pdf') }}" download="Compte_rendu "> Compte rendu   </a>
+                </li>  
+            </ul>
+        </div>
+        <br>
+        <div class="doc">
+            <h3> Documentation utilisateur </h3>
+            <br>
+            <video controls preload="metadata" width="600" height="300">
+                <source src="{{ asset('fichiers/AP2/DocumentationUtilisateur.mp4') }}" type="video/mp4" >
+                <track label="English" kind="captions" srclang="en" src="resources/myvideo-en.vtt" default>
+            </video>
+        </div>
+        <div class="re">
+            <div class="divCompetence">
+                <br>
+                <h3> Compétences couvertes </h3>
+                <br>
+                <br>
+                <h4> Gérer le patrimoine informatique </h4>
+                <br>
+                <ul>
+                    <li>
+                        <a>Recenser et identifier les ressources disponibles</a>
+                    </li>
+                    <li>
+                        <a>Exploiter des référentiels, normes et standards adoptés par le prestataire informatique</a>
+                    </li>
+                    <li>
+                        <a>Mettre en place et vérifier les niveaux d'habilitation associés à un service</a>
+                    </li>
+                    <li>
+                        <a>Vérifier les conditions de la continuité d'un service informatique</a>
+                    </li>
+                    <li>
+                        <a>Gérer des sauvegardes</a>
+                    </li>
+                    <li>
+                        <a>Vérifier le respect des règles d'utilisation des ressources numériques</a>
+                    </li>
+                </ul>
+                </br>
+                <h4>Répondre aux incidents et aux demandes d'assistance et d'évolution </h4>
+                <br>
+
+                <ul>
+                    <li>
+                        <a>Collecter, suivre et orienter des demandes</a>
+                    </li>
+                    <li>
+                        <a>Traiter des demandes concernant les services réseau et système, applicatifs</a>
+                    </li>
+                    <li>
+                        <a>Traiter des demandes concernant les applications</a>
+                    </li>
+                </ul>
+                </br>
+                <h4>Développer la présence en ligne de l'organisation</h4>
+                <br>
+
+                <ul>
+                    <li>
+                        <a>Participer à la valorisation de l'image de l'organisation sur les médias numériques
+        en tenant compte du cadre juridique et des enjeux économiques</a>
+                    </li>
+                    <li>
+                        <a>Référencer les services en ligne de l'organisation et mesurer leur visibilité</a>
+                    </li>
+                    <li>
+                        <a>Participer à l'évolution d'un site web exploitant les données de l'organisation</a>
+                    </li>
+                </ul>
+                </br>
+                <h4> Travailler en mode projet</h4>
+                <br>
+                <ul>
+                    <li>
+                        <a>Analyser les objectifs et les modalités d'organisation d'un projet</a>
+                    </li>
+                    <li>
+                        <a>Planifier les activités</a>
+                    </li>
+                    <li>
+                        <a>Evaluer les indicateurs de suivi d'un projet et analyser les écarts</a>
+                    </li>
+                </ul>
+                </br>
+                <h4>Mettre à disposition des utilisateurs un service informatique</h4>
+                <br>
+                <ul>
+                    <li>
+                        <a>Réaliser les tests d'intégration et d'acceptation d'un service</a>
+                    </li>
+                    <li>
+                        <a>Déployer un service</a>
+                    </li>
+                    <li>
+                        <a>Accompagner les utilisateurs dans la mise en place d'un service</a>
+                    </li>
+                </ul>
+                </br>
+                <h4>Concevoir et développer une solution applicative</h4>
+                <br>
+                <ul>
+                    <li>
+                        <a>Analyser un besoin exprimé et son contexte juridique</a>
+                    </li>
+                    <li>
+                        <a>Participer à la conception de l'architecture d'une solution applicative</a>
+                    </li>
+                    <li>
+                        <a>Modéliser une solution applicative</a>
+                    </li>
+                    <li>
+                        <a>Exploiter les ressources du cadre applicatif (Framework)</a>
+                    </li>
+                    <li>
+                        <a>Identifier, développer, utiliser ou adapter des composants logiciels</a>
+                    </li>
+                    <li>
+                        <a>Exploiter les technologies web pour mettre en oeuvre les échanges entre applications, y compris de mobilité</a>
+                    </li>
+                    <li>
+                        <a>Utiliser des composants d'accès aux données</a>
+                    </li>
+                    <li>
+                        <a>Intégrer en continu les versions d'une solution applicative</a>
+                    </li>
+                    <li>
+                        <a>Réaliser les tests nécessaires à la validation ou à la mise en production d'éléments adaptés ou développés</a>
+                    </li>
+                    <li>
+                        <a>Rédiger des documentations techniques et d'utilisation d'une solution applicative</a>
+                    </li>
+                    <li>
+                        <a>Exploiter les fonctionnalités d'un environnement de développement et de tests</a>
+                    </li>
+                </ul>
+                </br>
+                <h4>Assurer la maintenance corrective ou évolutive d'une solution applicative</h4>
+                <br>
+                <ul>
+                    <li>
+                        <a>Recueillir, analyser et mettre à jour les informations sur une version d'une solution applicative</a>
+                    </li>
+                    <li>
+                        <a>Evaluer la qualité d'une solution applicative</a>
+                    </li>
+                    <li>
+                        <a>Analyser et corriger un dysfonctionnement</a>
+                    </li>
+                </ul>
+                </br>
+                <h4>Gérer les données</h4>
+                <br>   
+                <ul>
+                    <li>
+                        <a>Exploiter des données à l'aide d'un langage de requêtes</a>
+                    </li>
+                    <li>
+                        <a>Administrer et déployer une base de données</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="re">
+            <div class="centre">
+                <br>
+                <h3> Technologies utilisées</h3>
+                <br>
+                <br>
+                <ul>
+                    <li>
+                        <a>  Visual Studio 2019 </a>
+                    </li>
+                    <li>
+                        <a> C#  </a>
+                    </li>
+                    <li>
+                        <a> PHP </a>
+                    </li>
+                    <li>
+                        <a> MySQL </a>
+                    </li>
+                    <li>
+                        <a> Wamp </a>
+                    </li>
+                    <li>
+                        <a> .NET Framework </a>
+                    </li>
+                    <li>
+                        <a> Github </a>
+                    </li>                
+                </ul>
+            </div>
+        </div>
+                
+    </div>
+
+
+{% endblock %}
+

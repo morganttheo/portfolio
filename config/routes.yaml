@@ -6,9 +6,13 @@ portfolio:
    path: /portfolio
    controller: App\Controller\PortfolioController::index
    
-projet1:
-   path: /projet1
-   controller: App\Controller\PortfolioController::afficheProjet1
+AP1:
+   path: /AP1
+   controller: App\Controller\PortfolioController::afficheAP1
+
+AP2:
+   path: /AP2
+   controller: App\Controller\PortfolioController::afficheAP2
    
    
 stage2:
