@@ -22,6 +22,11 @@ stage2:
 stage1:
    path: /stage1
    controller: App\Controller\PortfolioController::afficheStage1  
+
+
+sae:
+   path: /sae
+   controller: App\Controller\PortfolioController::afficheSae
    
 
 veille:

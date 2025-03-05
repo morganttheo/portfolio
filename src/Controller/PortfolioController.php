@@ -55,4 +55,12 @@ class PortfolioController extends AbstractController{
     public function afficheStage1(): Response{
         return $this->render("pages/stage1.html.twig");
     }
+
+    /**
+     * 
+     * @return Response
+     */
+    public function afficheSae(): Response{
+        return $this->render("pages/sae.html.twig");
+    }
 }

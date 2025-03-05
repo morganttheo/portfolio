@@ -8,30 +8,55 @@
 html, body {
     overflow-x: hidden; /* Empêche le débordement horizontal */
     width: 100%;
-    background-color: #222224;
+    background-color: hsla(0, 0%, 3%, 0.801);
+    /*background-image: url("../images/bg4.jpeg");*/
 }
 
+.profile-container {
+    display: flex;
+    justify-content: center; /* Centre horizontalement */
+    align-items: center;
+    margin-top: 50px; /* Ajoute un espace en haut si besoin */
+}
+
+.profile-picture {
+    width: 200px; /* Ajuste selon la taille souhaitée */
+    height: 200px; /* Doit être égal à width pour un rond parfait */
+    border-radius: 50%; /* Rend l’image ronde */
+    object-fit: cover; /* Assure que l’image remplit bien le cadre */
+    border: 4px solid white; /* Optionnel : ajoute une bordure */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Ombre pour effet 3D */
+}
+
+
 nav {
-    width: 100%;
-    margin: 0 auto;
-    background-color: white;
-    position: sticky;
+    width: 20%; 
+    height: 5%;
+    margin: 10px auto; /* Centre le menu et ajoute une marge en haut */
+    background-color: #222224; /* Appliqué directement à la nav */
+    position: fixed;
     top: 0;
-    border-bottom: 1px solid white;
-    z-index: 1000; /* Assure que le menu reste au-dessus du contenu */
+    left: 0;
+    right: 0; /* left: 0 et right: 0 aident au centrage quand position: fixed */
+    border-radius: 25px; /* Bords arrondis */
+    overflow: hidden; /* Assure que le contenu respecte les bords arrondis */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* Ombre légère pour l'effet flottant */
+    z-index: 1000;
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
+    margin: 0; /* Supprime les marges par défaut */
     display: flex;
-    justify-content: space-around;
-    background-color: #222224;
+    justify-content: center; /* Centre les éléments du menu */
+    background-color: transparent; /* Supprime le fond car déjà défini dans nav */
 }
 
 nav li {
     text-align: center;
-    flex: 1;
+    flex: 0 1 auto; /* Permet aux éléments de prendre la taille nécessaire */
+    padding: 0 20px; /* Espacement horizontal entre les éléments */
 }
 
 nav a {
@@ -39,7 +64,8 @@ nav a {
     text-decoration: none;
     color: white;
     border-bottom: 2px solid transparent;
-    padding: 20px 0;
+    padding: 10px  5px; /* Ajustez le padding horizontal et vertical */
+    font-size: 14px; /* Taille de police plus petite */
 }
 
 nav a:hover {
@@ -70,7 +96,7 @@ h1, h5 {
     position: relative;
     text-align: center;
     color: #cacaca;
-}
+} 
 
 .imgText {
     position: absolute;
@@ -87,6 +113,11 @@ h1, h5 {
 .ap1-titre {
     padding-top: 50px;
     font-size: 50px;
+    padding-bottom: 30px;
+}
+.portfolio {
+    padding-top: 30px;
+    font-size: 55px;
     padding-bottom: 30px;
 }
 
@@ -179,6 +210,11 @@ li {
     max-width: 90%; /* Largeur de l'élément autour de 90%, plus proche du centre */
 }
 
+.but3{
+    text-decoration: none;
+
+}
+
 /* Définir les puces et ajuster la présentation */
 .re ul {
     list-style-type: disc; /* Puces visibles */
@@ -262,8 +298,8 @@ h4 {
 }
 
 .iconTitle {
-    width: 40px;
-    height: 40px;
+    width: 62px;
+    height: 42px;
     color: #ECDFCC;
 }
 
@@ -347,3 +383,5 @@ h4 {
     justify-content: center;
     gap: 10px;
 }
+
+
